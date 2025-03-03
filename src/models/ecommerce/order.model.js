@@ -1,0 +1,5 @@
+import mongoose from 'mongoose';
+
+const orderSchema = new mongoose.Schema({});
+
+export const Order = mongoose.Model('Order', orderSchema);
